@@ -11,7 +11,6 @@
 #define PIN_SERVO   6
 
 // Động cơ (Driver L298N)
-// Motor Trái (IN1, IN2)
 #define PIN_IN1     4
 
 // 2. KHAI BÁO BIẾN & ĐỐI TƯỢNG
