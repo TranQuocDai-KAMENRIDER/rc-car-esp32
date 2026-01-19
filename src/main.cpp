@@ -7,20 +7,12 @@
 #include "steering_logic.h"
 #include "state_machine.h"
 // 1. PIN MAPPING
-// Cảm biến siêu âm HC-SR04
-#define PIN_TRIG    15
-#define PIN_ECHO    16
-
 // Servo lái
 #define PIN_SERVO   6
 
 // Động cơ (Driver L298N)
 // Motor Trái (IN1, IN2)
 #define PIN_IN1     4
-#define PIN_IN2     5
-// Motor Phải (IN3, IN4)
-#define PIN_IN3     7
-#define PIN_IN4     8
 
 // 2. KHAI BÁO BIẾN & ĐỐI TƯỢNG
 uint8_t macCuaXe[] = {0xA0, 0x11, 0x11, 0x11, 0x11, 0x11}; // MAC của Xe
