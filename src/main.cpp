@@ -6,7 +6,7 @@
 #include "motor_driver.h" // <--- Gọi thợ máy vào làm việc
 
 // MAC của Xe
-uint8_t macCuaXe[] = {0x32, 0xAE, 0xAE, 0xAE, 0xAE, 0x02};
+uint8_t macCuaXe[] = {0x02, 0xAE, 0xAE, 0xAE, 0xAE, 0x27};
 
 ControlPacket myData;
 unsigned long lastRecvTime = 0; // Biến Failsafe
